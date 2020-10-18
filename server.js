@@ -4,9 +4,7 @@ const htmlRoutes = require('./routes/htmlRoutes');
 const apiRoutes = require('./routes/apiRoutes');
 const app = express();
 const PORT = process.env.PORT || 3001;
-//const fs = require('fs');
-//import the path module
-//const path = require('path');
+
 
 //set up express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
