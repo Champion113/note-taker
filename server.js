@@ -12,37 +12,8 @@ app.use(express.json());
 app.use(express.static('public'));
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
-//Routes
 
-//home route to return index.html
-
-//   app.get('/api/notes', (req, res) => {
-//     return res.json(notes);
-//   });
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//listener
+  //listener
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
   });
